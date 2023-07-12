@@ -1,4 +1,4 @@
-# Social.Group
+# Groups over ATProtocol
 
 ## What is this space about
 
@@ -10,14 +10,18 @@ Waverly will also develop separately an opinionated client that incorporates the
 
 ## Context
 
-We are not affiliated with Bluesky and operate independently. As we familiarize ourselves with the ATPProtocol concepts, we may make mistakes. Our initial objectives are:
+We are not affiliated with Bluesky and operate independently. As we familiarize ourselves with the ATProtocol concepts, we may make mistakes. Our initial objectives are:
 
 - Document and consolidate information on the topic.
 - Describe our ideas to inspire collaboration from others.
 
-## General goals
+## Goal
 
-These are our current goals, and we are happy to discuss them!
+Make it possible for people to create groups that can be joined, posted to, browsed, moderated, etc. You can think of it like traditional online forums or subreddits.
+
+## Design principles
+
+These are our principles, and we are happy to discuss them!
 
 - The group is owned by the community: We aim to apply the same principles as Bluesky. Just as a user account is owned by the end user, a group account should be owned by the community. Group data, including group moderation data (accepted or rejected post references, blocked, muted...), should be stored in a repository owned by the group owner(s).
 - User's posts to a group are still owned by individual users, similar to Bluesky. We embrace the distinction between creation and distribution: Users are free to create or delete content, and the group is responsible for managing the dissemination within the group.
@@ -40,6 +44,7 @@ Some differences:
 - A group is structured in a way that different individuals have different roles, such as member, moderator, or owner.
 - Groups usually come with a set of automation, moderation, and management tools.
 - A group could be private. However, similar to Bluesky's lack of support for private direct messages (DMs) in the initial iteration, we plan to initially focus 100% on public groups. This decision is motivated by a greater alignment with Bluesky, and public groups will contribute more to the open network!
+- The posts within a group, and the replies to these posts by group member, can be browsed in a group feed.
 
 ## Relevant references
 
@@ -59,3 +64,6 @@ The community experience is a significant aspect. While Waverly aims to integrat
 ## Disclaimer
 
 This document represents our current goals and ideas for Waverly Social. Please note that as this project evolves, these goals and ideas may change or be refined. While we strive to provide accurate and helpful information and tools, we cannot guarantee their completeness or suitability for your specific needs. The use of any information or tools mentioned in this document is at your own risk. We are not responsible for any damages or consequences that may arise from the use of the information or tools provided. We are actively open to feedback, collaboration, and improvements from the community. Thank you!
+
+---
+[GitHub](https://github.com/waverlyai/social.group)
