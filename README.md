@@ -46,6 +46,10 @@ Some differences:
 - A group could be private. However, similar to Bluesky's lack of support for private direct messages (DMs) in the initial iteration, we plan to initially focus 100% on public groups. This decision is motivated by a greater alignment with Bluesky, and public groups will contribute more to the open network!
 - The posts within a group, and the replies to these posts by group member, can be browsed in a group feed.
 
+Not in scope:
+
+- A group could be private. However, similar to Bluesky's lack of support for private direct messages (DMs) in the initial iteration, we plan to initially focus 100% on public groups. This decision is motivated by a greater alignment with Bluesky, and public groups will contribute more to the open network!
+
 ## Relevant references
 
 ### Moderation proposal
@@ -56,6 +60,12 @@ The community experience is a significant aspect. While Waverly aims to integrat
 ### A thread about reddit on ATP
 
 [Reddit alternative on ATProto](https://github.com/bluesky-social/atproto/discussions/1199)
+
+
+## Early propositions
+
+- [Bot powered group](/bot-powered-group.md)
+- Group primitives over ATP (TODO - open to propositions)
 
 ## Contributors
 
